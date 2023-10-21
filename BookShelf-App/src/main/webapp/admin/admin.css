@@ -1,0 +1,1181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Feb, 2023, 10:03:17 PM
+    Author     : ankit
+*/
+
+
+/*home page....!*/
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+.header{
+    position: fixed;
+    background-color: #202020;
+     padding: 20px;
+    width: 100%;
+    height: 13%;
+    transition: 0.5s;
+    transition-property: color;
+   z-index: 100000;
+}
+.cartbtn{
+    position: fixed;
+    background-color: #22242A;
+     padding: 20px;
+     padding-bottom: 10px;
+     top:90.5px;
+    left:250px;
+    width: 85%;
+   z-index: 100000;
+    
+}
+
+
+.cartbtn .renavbar-header{
+    
+    margin-left: 10px;
+      /* Set the background color */
+  background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+    
+    font-family:"lucida handwriting",cursive;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 60px;
+  
+}
+
+.cartbtn #next2{
+  
+    padding-right: 50px;
+    padding-bottom: 10px;
+ float: right;
+ color: #f3e6e8; 
+ 
+}
+
+.cartbtn #cart{
+    margin-top: -50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+ float: right;
+ color: #f3e6e8; 
+ 
+}
+
+.receipcartbtn{
+    position: fixed;
+    background-color: #22242A;
+     padding: 20px;
+     padding-bottom: 10px;
+     top:90.5px;
+   
+    width: 100%;
+   z-index: 100000;
+    
+}
+
+.receipcartbtn .renavbar-header{
+    
+    margin-left: 10px;
+      /* Set the background color */
+  background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+    
+    font-family:"lucida handwriting",cursive;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 60px;
+  
+}
+
+
+
+.receipcartbtn #next2{
+  
+    padding-right: 50px;
+    padding-bottom: 10px;
+ float: right;
+ color: #f3e6e8; 
+ 
+}
+
+.receipcartbtn #cart{
+
+    padding-right: 30px;
+   
+   
+ float: right;
+ color: #f3e6e8; 
+ 
+}
+
+.navbar-header .button1{
+    background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+  
+    float: right;
+    padding: 5px;
+    margin-right: 130px;
+   background-color: #22242A;
+font-size: 18px;
+    margin-top: -60px;
+    font-weight: 900;
+}
+.navbar-header .button{
+    background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+  
+    float: right;
+    padding: 5px;
+   font-size: 18px;
+   background-color: #22242A;
+
+    margin-top: -60px;
+    font-weight: 900;
+}
+
+.navbar-header h3{
+    
+    margin-left: 10px;
+      /* Set the background color */
+  background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    font-family:"lucida handwriting",cursive;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 60px;
+  
+}
+
+/*
+.navbar-header img{
+    margin-left:-50;
+   
+    height: 50px;
+    width: 100px;
+    
+    padding-top:3px;  
+    padding-bottom: 5px;
+}
+*/
+
+.sidebar{
+background-color: #22242A;
+
+     font-family: "georgia",serif;
+   
+    position: fixed;
+    left: 0;
+    top:90.5px;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+.sidebar a{
+    background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+  
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property:    background;
+}
+.sidebar a:hover{
+    color: white;
+    
+    text-decoration: none;
+}
+.sidebar i{
+    
+    padding: 10px;
+}
+
+#content.active{
+    width: 100px;
+    margin: 0;
+}
+
+label #sidebar_btn{
+    z-index: 1;
+      background: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+  
+    
+    padding-bottom:  30px;
+    position:fixed;
+    cursor: pointer;
+     top: 90px;
+    left: 20px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+   
+}
+label #sidebar_btn:hover{
+    color: orange;
+}
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+
+#check:checked ~ .sidebar a{
+ font-size: 20px;
+ margin-left: 170px;
+ width: 80px;
+}
+
+
+.form-popup {
+  /*  background-color:  black;*/
+  display: none;
+ 
+   background: hsla(0, 0%, 100%, 0.55);
+            backdrop-filter: blur(30px);
+
+   text-align: center;
+   border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup h1{
+    color: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+/* Add styles to the form container */
+.form-container {
+  width: 350px;
+  height:400px;
+  background:rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+
+ left: 40%;
+ position: absolute;
+ 
+ box-sizing: border-box;
+ 
+  
+}
+
+
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+   border: 0;
+   position: absolute;
+   left: 38%;
+    background: none;
+    display: block;
+    cursor: pointer;
+  padding: 14px 20px;
+  margin: 20px auto;
+  border: 2px solid ;
+  
+  outline: white;
+  border-color: white;
+  border-radius: 24px;
+  text-align: center;
+
+}
+
+
+/* Add a red background color to the cancel button */
+.close i{
+    text-align: center;
+    position: absolute;
+  left: 51%;
+ top: 350px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+div #space{
+    margin-top: 20px;
+}
+.carousel{
+    top: 154px;
+    margin-left: 250px;
+    
+    transition: 0.5s;
+}
+#check:checked ~ .carousel{
+   margin-left: 60px;
+   transition: 0.5s;
+  
+}
+
+
+.receipcarousel{
+    top: 154px;
+   transition: 0.5s;
+}
+#check:checked ~ .receipcarousel{
+   margin-left: 60px;
+   transition: 0.5s;
+  
+}
+.grid{
+    transition: 0.5s;
+    margin-left: 260px;
+}
+
+.shop-item .shop-item-button{
+    
+    width: 130px;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: #202020;
+}
+
+
+/* cart  Start */
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+    
+}
+
+ .cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    padding-left:  10px;
+}
+
+.cart-items .cart-item {
+    width: 45%;
+      border: none;
+      margin-left: 50px;
+}
+
+.cart-items .cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+    margin-left: 420px;
+    margin-top: -60px;
+    border: none;
+}
+
+.cart-items cart-quantity {
+    width: 35%;
+   
+
+}
+
+.cart-items .cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+   
+}
+
+.cart-items .cart-item-image {
+    width: 100px;
+    height: 100px;
+  
+}
+
+.cart-items .btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-top: -90px;
+    
+    margin-right: 10px;
+}
+
+.cart-items .btn-danger:hover {
+    background-color: #CC4C4C;
+}
+.containercart{
+    margin-left: 15px;
+}
+.cart-items .cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+   margin-left: 755px;
+    margin-top: -90px;
+}
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+ .cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+   height: 40px;
+   width: 100px;
+   color: #f3e6e8;
+   background-color: #202020;
+   font-size: 1.75em;
+}
+
+section a .btn{
+    margin-top: 10px;
+}
+
+.select{
+    margin-top: 10px;
+    border: solid 2px;
+    border-color: grey;
+   
+      
+}
+.back{
+    text-align: center;
+}
+.back button{
+    color: #f3e6e8;
+    align-items: center;
+    margin: 40px auto 80px auto;
+
+    background-color: #202020;
+    margin-left: -90%;
+
+    
+}
+.back button:hover{
+   background-color:#202020;
+}
+.grid{
+    height: 4000px;
+    width: 80%;
+    position: relative;
+    margin-left:160px;
+    margin-top: 150px;
+    transition: 0.1s;
+   
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.grid{
+  
+    margin-top: 160px;
+   
+    left: 90px;
+    width: 83%;
+    margin-bottom: 10px;
+}
+
+.grid section{ 
+    align-content: center;
+   
+    width: 100%;
+    
+  
+    position: absolute;
+    
+    transition: 0.1s;
+   
+}
+/* cart  End */
+
+#footer{
+ 
+ 
+ left: 0px;
+ bottom: 0;
+ width: 100%;
+ height: 200px; 
+  padding: 75px 0 0;
+  
+  color: #ccc;
+  
+
+ 
+}
+.dk-footer{
+   background-color: #2E2E2E;
+
+}
+
+.footer-widget p {
+    margin-bottom: 27px;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+   .animate-border {
+  position: relative;
+  display: block;
+  width: 115px;
+  height: 3px;
+  background: #007bff;
+   }
+
+.animate-border:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  -webkit-animation: animborder 2s linear infinite;
+  animation: animborder 2s linear infinite; 
+}
+
+@-webkit-keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); 
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px); 
+  } 
+}
+
+@keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px);
+  } 
+}
+
+.animate-border.border-white:after {
+  border-color: #fff;
+}
+
+.animate-border.border-yellow:after {
+  border-color: #F5B02E; 
+}
+
+.animate-border.border-orange:after {
+  border-right-color: #007bff;
+  border-left-color: #007bff; 
+}
+
+.animate-border.border-ash:after {
+  border-right-color: #EEF0EF;
+  border-left-color: #EEF0EF; 
+}
+
+.animate-border.border-offwhite:after {
+  border-right-color: #F7F9F8;
+  border-left-color: #F7F9F8; 
+}
+
+/* Animated heading border */
+@keyframes primary-short {
+  0% {
+    width: 15%; 
+  }
+  50% {
+    width: 90%; 
+  }
+  100% {
+    width: 10%; 
+  } 
+}
+
+@keyframes primary-long {
+  0% {
+    width: 80%;
+  }
+  50% {
+    width: 0%; 
+  }
+  100% {
+    width: 80%;
+  } 
+} 
+
+
+  .dk-footer .contact-us {
+      
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+  }
+    .dk-footer .contact-us .contact-info {
+      margin-left: 50px; 
+    }
+    .dk-footer .contact-us.contact-us-last {
+      margin-left: -80px; 
+    }
+  .dk-footer .contact-icon i {
+    font-size: 24px;
+    top: -15px;
+    position: relative;
+    color:#007bff; 
+  }
+
+.dk-footer-box-info {
+  position: absolute;
+  top: 10px;
+  left: 65px;
+ background-color: #2E2E2E;
+
+  padding: 30px;
+  z-index: 2; 
+}
+  .dk-footer-box-info .footer-social-link h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px; 
+  }
+  .dk-footer-box-info .footer-social-link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .dk-footer-box-info .footer-social-link li {
+    display: inline-block;
+  }
+  .dk-footer-box-info .footer-social-link a i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #000;
+    margin-right: 5px;
+    color: #fff; 
+  }
+    .dk-footer-box-info .footer-social-link a i.fa-facebook {
+      background-color: #3B5998;
+    }
+    .dk-footer-box-info .footer-social-link a i.fa-twitter {
+      background-color: #55ACEE; 
+    }
+    .dk-footer-box-info .footer-social-link a i.fa-google-plus {
+      background-color: #DD4B39;
+    }
+    .dk-footer-box-info .footer-social-link a i.fa-linkedin {
+      background-color: #0976B4;
+    }
+    .dk-footer-box-info .footer-social-link a i.fa-instagram {
+      background-color: #B7242A;
+    }
+
+.footer-awarad {
+  margin-top: 285px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+}
+  .footer-awarad p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-top: 15px; 
+  }
+
+.footer-info-text {
+  margin: 26px 0 32px;
+}
+
+.footer-left-widget {
+  padding-left: 80px;
+}
+
+.footer-widget .section-heading {
+  margin-bottom: 35px; 
+}
+
+.footer-widget h3 {
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 15px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content; 
+}
+
+.footer-widget ul {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+
+.footer-widget li {
+  margin-bottom: 18px; 
+}
+
+.footer-widget p {
+  margin-bottom: 27px;
+}
+
+.footer-widget a {
+  color: #878787;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+  .footer-widget a:hover {
+    color: #007bff; 
+  }
+
+.footer-widget:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dk-footer-form {
+  position: relative;
+}
+  .dk-footer-form input[type=email] {
+    padding: 14px 28px;
+    border-radius: 50px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E; 
+  }
+  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
+    color: #878787;
+    font-size: 14px; 
+  }
+  .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
+    color: #878787;
+    font-size: 14px; 
+  }
+  .dk-footer-form button[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 24px 12px 17px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff; 
+  }
+  .dk-footer-form button:hover {
+    cursor: pointer; 
+  }
+
+/* ==========================
+
+    Contact
+
+=============================*/
+.contact-us {
+  position: relative;
+  z-index: 2;
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+}
+
+.contact-icon {
+  position: absolute; 
+}
+  .contact-icon i {
+    font-size: 36px;
+    top: -5px;
+    position: relative;
+    color: #007bff; 
+  }
+
+.contact-info {
+  margin-left: 75px;
+  color: #fff; 
+}
+  .contact-info h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0; 
+  }
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #202020; 
+}
+  .copyright span,
+  .copyright a {
+    color: #878787;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; 
+  }
+  
+  
+  .copyright a:hover {
+    color:#007bff; 
+  }
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0; 
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px; 
+}
+
+    
+.copy{
+    left: 40%;
+}
+/*home page  end....!*/
+
+/*registration page  start....!*/
+
+.input input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*registration page  end....!*/
+
+
+
+/*admin dashboard page  start....!*/
+.ad{
+    height: 1000px;
+    width: 80%;
+    position: relative;
+    margin-left:160px;
+    margin-top: 150px;
+    transition: 0.1s;
+   
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.ad{
+  
+    margin-top: 90px;
+    background:  linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+    left: 90px;
+    width: 83%;
+    margin-bottom: 10px;
+}
+
+.ad section{ 
+    align-content: center;
+    height: 1000px;
+    width: 100%;
+    
+   
+    
+    position: absolute;
+    left: 10px;
+    top:10px;
+    transition: 0.1s;
+   
+}
+section form   h3{
+    margin-top: 30px;
+    margin-left: 290px;
+    margin-bottom: 15px;
+    margin-right: 650px;
+    padding-left: 50px;
+     color:   #f3e6e8;
+    background-color:#202020;
+}
+section form  .row{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left:140px;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}
+section  form div label{
+    font-size: 20px;
+   
+}
+.ad section form input{  
+    border: solid;
+      border-color:  Black;
+}
+
+section form   button{
+    margin-top: 50px;
+    margin-left: 300px;
+    padding: 15px 40px;
+    display: inline-block;
+    color:   #f3e6e8;
+    background-color:#202020;
+    border-radius: 12px;
+    font-size: 24px;
+    
+}
+#f2{
+    top:1000px;
+}
+
+#f3{
+    top:1000px;
+}
+
+#f4{
+    top:1000px;
+}
+
+#f5{
+    top:1000px;
+}
+
+#f6{
+    top:1000px;
+}
+
+#f7{
+    top:1000px;
+}
+
+#f8{
+    top:1000px;
+}
+
+#check:checked ~ .reg{
+    left: -190px;
+}
+section form   .ebtn{
+    margin-top: 50px;
+    margin-left: 500px;
+    padding: 15px 40px;
+    display: inline-block;
+    background-color: #19B3D3;
+    border-radius: 12px;
+    font-size: 24px;
+    
+}
+
+section form table{
+    margin-left: 220px;
+    margin-top: 50px;
+    width: 50%;
+    
+    
+}
+section form th{
+    
+    border: solid grey;
+}
+
+section form td{
+    
+    border-bottom: solid grey;
+}
+
+
+section form .table .cust{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 95%;
+    
+    
+}
+
+
+
+input::placeholder {  
+      text-align: center;
+}
+
+
+
+
+/*admin dashboard page  end....!*/
+
+/*contact page  start....!*/
+ .contact  {
+  box-sizing: border-box;
+  
+}
+.contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.contact input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.contact input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact  {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 260px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.contact .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.contact .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
